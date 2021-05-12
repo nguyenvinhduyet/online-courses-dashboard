@@ -1,11 +1,22 @@
+
 body{
-    background-color: crimson;
+    background-color: #F8F8FB;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
 }
 .wrapper{
     z-index: -1;
-    width: 1920px;
+    /* width: 1920px; */
+    width: 100%;
     height: 1172px;
     background: #F8F8FB;
+}
+.flex{
+    display: flex;
+    align-items: flex-end;
 }
 .mr30{
     margin-right: 30px;
@@ -30,6 +41,9 @@ body{
 }
 .mr45{
     margin-right: 45px;
+}
+.ml5{
+    margin-left: 5px;
 }
 /* ----------------------------------------------------- Navigation --------------------------------------------------*/
 .navigation{
@@ -151,8 +165,6 @@ body{
 .topbar__icons--right{
     display: flex;
     align-items: center;
-}
-.topbar__icons--right{
     margin-right: 60px;
 }
 .topbar__info--lecturer{
@@ -164,12 +176,8 @@ body{
 .statistics{
     display: flex;
     margin-left: 105px;
-    /* margin-top: 150px; */
     margin-top: 70px;
-    /* top: 150px;
-    left: 150px; */
     justify-content: space-evenly;
-    /* position: absolute; */
 }
 
 
@@ -177,15 +185,24 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    /* position: absolute; */
-    margin-left: 160px;
+    margin-left: 150px;
+    /* margin-left: 9%; */
     margin-top: 35px;
 }
 .header__button{
     display: flex;
-    margin-right: 60px;
+    margin-right: 45px;
+    /* margin-right: 4.5%; */
     align-items: center;
     
+}
+.header__name p:nth-child(1){
+    font-size: 30px;
+    font-weight: 600;
+}
+.header__name p:nth-child(2){
+    font-size: 14px;
+    color: #A6ACBE;
 }
 .header__button--manage{
     display: flex;
@@ -216,7 +233,6 @@ body{
     display: flex;
 }
 
-
 .studentsleft__card{
     display: flex;
     margin-top: 40px;
@@ -224,11 +240,11 @@ body{
 
 .studentsright{
     display: flex;
-    margin-left: 55px;
+    margin-left: 45px;
     margin-top: 40px;
 }
 
-.studensleft{
-    margin-left: 152px;
+.studentsleft{
+    margin-left: 150px;
     margin-top: 40px;
 }

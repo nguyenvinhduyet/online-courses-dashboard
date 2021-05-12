@@ -1,0 +1,388 @@
+@media only screen and (max-width: 414px) and (min-width: 361px) {
+    .body{
+        
+        max-width: 414px;
+    }
+    .wrapper{
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+    /* float button */
+    .floatbutton__manage--img{
+        width: 30px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: rgba(255, 38, 0, 0.1);
+        margin-right: 15px;
+    }
+    .floatbutton__create--img{
+        width: 30px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: rgba(10, 184, 140, 0.1);
+    }
+    .floatbutton{
+        display: flex;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    
+
+
+
+
+    /*------------------------------------------------- Navigation -------------------------------------------------- */
+    .navigation{
+        width: 50px;
+        height: 100%;
+        position: fixed;
+        /* display: none; */
+    }
+    .navigation__box--blue {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 60px;
+        background-color: #6F52ED;
+        margin-bottom: 40px;
+    }
+    .navigation__box--img{
+        width: 40px;
+    }
+    .navigation__icons--box{
+        width: 40px;
+        height: 40px;
+    }
+    .navigation__icons--item:nth-child(5){
+        position: absolute;
+        bottom: 20px;
+    }
+
+
+      /*------------------------------------------------- Topbar -------------------------------------------------- */
+    .topbar{
+        width: 100%;
+        height: 60px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .topbar__icons--right{
+        justify-content: flex-start;
+        margin-right: 20px;
+    }
+
+    .topbar__icons--left{
+        margin-left: 60px;
+    }
+
+    .topbar__info--lecturer{
+        display: none;
+    }
+
+    .avatar-icon{
+        display: none;
+    }
+
+    .more-icon{
+        margin-right: 0px;
+        display: none;   
+    }
+
+    .notifi-icon{
+        margin-right: 0px;
+    }
+
+    .logout-icon{
+        margin-left: 20px;
+    }
+
+    
+
+    /*------------------------------------------------- Block -------------------------------------------------- */
+    .content{
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 60px;
+        margin-top: 35px;
+    }
+    .statistics{
+        display: flex;
+        flex-direction: column;
+        margin-left: 105px;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        
+    }
+    
+    .header__name p:nth-child(1){
+        font-size: 20px;
+    }
+    .header__name{
+        margin-top: -20px;
+        text-align: center;
+        margin-left: -35px;
+    }
+    .header__button{
+        margin-top: 20px;
+        width: 80%;
+        display: none;
+    }
+    .header__button--create{
+        margin-left: 10px;
+    }
+
+
+
+
+    /* -------------------------------------------------card-------------------------------------------- */
+    .card{
+        width: 100%;
+        height: 100px;
+        margin-left: -30px;
+        margin-bottom: 20px;
+    }
+    .card__wrapper{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .card__content--number{
+        font-size: 18px;
+    }
+   
+
+    /* Student rank */
+    .studentsright{
+        flex-direction: column;
+    }
+    .studentsbyaveragemark__img{
+        width: 100%;
+        margin-left: 15px;
+        margin-top: -80px;
+    }
+
+    .studentsbytypeofstudying__img{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: -80px;
+    }
+    .studentsrank{
+        flex-direction: column;
+    }
+    .studentsleft{
+        margin-left: 50px;
+    }
+    .studentsleft__img{
+        width: 100%;
+        height: 100%;
+    }
+    .studentsleft__card{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .lectionsleft, .hoursspentonlections{
+        margin-left: 55px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 361px) {
+    .body{
+        max-width: 360px;
+    }
+    .wrapper{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    
+    
+
+
+
+
+    /*------------------------------------------------- Navigation -------------------------------------------------- */
+    .navigation{
+        width: 50px;
+        /* display: none; */
+    }
+    .navigation__box--blue {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 60px;
+        background-color: #6F52ED;
+        margin-bottom: 40px;
+    }
+    .navigation__box--img{
+        width: 40px;
+    }
+    .navigation__icons--box{
+        width: 40px;
+        height: 40px;
+    }
+    .navigation__icons--item:nth-child(5){
+        margin-top: 670px;
+    }
+
+
+      /*------------------------------------------------- Topbar -------------------------------------------------- */
+    .topbar{
+        width: 100%;
+        height: 60px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .topbar__icons--right{
+        justify-content: flex-start;
+        margin-right: 20px;
+    }
+
+    .topbar__icons--left{
+        margin-left: 60px;
+    }
+
+    .topbar__info--lecturer{
+        display: none;
+    }
+
+    .avatar-icon{
+        display: none;
+    }
+
+    .more-icon{
+        margin-right: 0px;
+        display: none;   
+    }
+
+    .notifi-icon{
+        margin-right: 0px;
+    }
+
+    .logout-icon{
+        margin-left: 20px;
+    }
+
+    
+
+    /*------------------------------------------------- Block -------------------------------------------------- */
+    .content{
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 60px;
+        margin-top: 35px;
+    }
+    .statistics{
+        display: flex;
+        flex-direction: column;
+        margin-left: 105px;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        
+    }
+    
+    .header__name p:nth-child(1){
+        font-size: 20px;
+    }
+    .header__name{
+        margin-top: -20px;
+        text-align: center;
+        margin-left: -35px;
+    }
+    .header__button{
+        margin-top: 20px;
+        width: 80%;
+        display: none;
+    }
+    .header__button--create{
+        margin-left: 10px;
+    }
+
+
+
+
+    /* -------------------------------------------------card-------------------------------------------- */
+    .card{
+        width: 100%;
+        height: 100px;
+        margin-left: -30px;
+        margin-bottom: 20px;
+    }
+    .card__wrapper{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .card__content--number{
+        font-size: 18px;
+    }
+   
+
+    /* Student rank */
+    .studentsright{
+        flex-direction: column;
+    }
+    .studentsbyaveragemark__img{
+        width: 100%;
+        margin-left: 15px;
+        margin-top: -120px;
+    }
+
+    .studentsbytypeofstudying__img{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: -150px;
+    }
+    .studentsrank{
+        flex-direction: column;
+    }
+    .studentsleft{
+        margin-left: 50px;
+    }
+    .studentsleft__img{
+        width: 100%;
+        height: 100%;
+    }
+    .studentsleft__card{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .lectionsleft, .hoursspentonlections{
+        margin-left: 55px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .body{
+        max-width: 768px;
+    }
+}
