@@ -381,8 +381,24 @@
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1025px){
     .body{
-        max-width: 768px;
+        max-width: 1024px;
+    }
+    .wrapper{
+        height: 5000px
+    }
+    .studentsrank{
+        flex-direction: column;
+    }
+    .studentsright {
+        margin-left: 146px;
+    }
+
+    .statistics{
+        flex-wrap: wrap;
+    }
+    .statistics .card{
+        margin-bottom: 20px;
     }
 }
